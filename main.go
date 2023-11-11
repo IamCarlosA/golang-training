@@ -1,8 +1,11 @@
-package test
+package main
 
-import "fmt"
+import (
+	helloworld "github.com/IamCarlosA/golang-training/01-hello-world"
+	values "github.com/IamCarlosA/golang-training/02-values"
+)
 
-func SayHelloWorld() {
-	fmt.Println("********** helloworld **********")
-	fmt.Println("¡Hello World!")
+func main() {
+	helloworld.SayHelloWorld()
+	values.ShowValues()
 }
